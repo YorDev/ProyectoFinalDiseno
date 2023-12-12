@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #2D2A32;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 20vw;
+  background: #051923;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+
+.left-top{
+  width: 90%;
+}
+
+.btnLeft {
+  background: #002135;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 20px 80px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btnLeft:hover {
+  background: #3d002e;
+}
+
+.registerP {
+  text-align: center;
+  text-decoration: none;
+}
+
+.left #historialtitle {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.historial {
+  background-color: #051923;
+  margin-top: 20px;
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.profileCard {
+  display: flex;
+  align-items: center;
+  justify-content: initial;
+  margin-top: 10px;
+  height: 9.8%;
+  background-color: #002135;
+  border-radius: 10px;
+}
+
+img {
+  display: block;
+  width: 20%;
+  border-radius: 50%;
+}
+
+
+.text p {
+  color: #fff;
+  padding-left: 10px;
+}
+
+.right {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 80vw;
+  background: #002135;
+  padding: 6px 14px;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+
+.right-top{
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.right-top img{
+  width: 20%;
+  height: 40%;
+  border-radius: 0%;
+}
+
+.right-top p{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.right-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.textBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #051923;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-size: large;
+}
+
+.btnSend{
+  margin-left: 10px;
+  width: 7%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #051923;
+}
+
+.btnSend img{
+  width: 100%;
+  height: 100%;
+  background-color: #051923;
+}

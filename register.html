@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="src/registro.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Inicio de sesión</h2>
+    <form class="login-form">
+      <div class="form-group">
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto">
+      </div>
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" required>
+      </div>
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </div>
+</body>
+</html>
